@@ -15,7 +15,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.datasets import load_iris
 
-url="C:/Users/ASUS/Downloads/IRIS (3).csv"
+url="https://raw.githubusercontent.com/priya055/Iris-flowers-classification/main/iris%20dataset/IRIS%20(3).csv"
 data = pd.read_csv(url)
 data.head()
 
